@@ -1,0 +1,58 @@
+/* styles/globals.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+input[type="text"], button {
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #0070f3;
+    color: white;
+    border:none;
+    cursor:pointer;
+}
+
+button:hover {
+    background-color:#005bb5; /* Darker blue on hover */
+}
+
+/* styles/globals.css
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+@media (max-width: 768px) {
+    aside {
+        width: 100%;
+        padding: 10px;
+    }
+
+    main {
+        padding: 10px;
+    }
+}
+
+@media (min-width: 769px) {
+    aside {
+        width: 200px;
+        padding: 20px;
+    }
+
+    main {
+        padding: 20px;
+    }
+} */
